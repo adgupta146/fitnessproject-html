@@ -1,0 +1,860 @@
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../font/FuturaPT-Bold.woff2') format('woff2'),
+        url('../font/FuturaPT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('../font/FuturaPT-Book.woff2') format('woff2'),
+        url('../font/FuturaPT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Cond';
+    src: url('../font/FuturaPTCond-Bold.woff2') format('woff2'),
+        url('../font/FuturaPTCond-Bold.woff') format('woff');
+    font-weight: bold;
+
+}
+@font-face {
+    font-family: 'Futura PT Cond Book';
+    src: url('../font/FuturaPTCond-Book.woff2') format('woff2'),
+    url('../font/FuturaPTCond-Book.woff') format('woff');
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family: 'Futura PT Cond Extra';
+    src: url('../font/FuturaPTCond-ExtraBold.woff2') format('woff2'),
+        url('../font/FuturaPTCond-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+
+@font-face {
+    font-family: 'Futura PT Cond';
+    src: url('../font/FuturaPTCond-Medium.woff2') format('woff2'),
+        url('../font/FuturaPTCond-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('../font/FuturaPT-Demi.woff2') format('woff2'),
+        url('../font/FuturaPT-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}  
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../font/FuturaPT-Heavy.woff2') format('woff2'),
+        url('../font/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../font/FuturaPT-Light.woff2') format('woff2'),
+        url('../font/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+ 
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../font/FuturaPT-Medium.woff2') format('woff2'),
+        url('../font/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+h1,h2,h3,h4,h5,p, ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.classic-body-sec{
+	background-image: url(../images/bodyclass.jpg);
+    background-size: 100% 100%;
+    height: 214px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 20px ;
+}
+
+.standared-body-sec{
+	background-image: url(../images/bodyclass2.png);
+    background-size: 100% 100%;
+    height: 214px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 20px ;
+}
+
+.premium-body-sec{
+	background-image: url(../images/bodyclass3.png);
+    background-size: 100% 100%;
+    height: 214px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 20px ;
+}
+
+
+.classic-text{
+	font-size: 25px;
+	color: white;
+	letter-spacing: -0.3px;
+	padding-top: 20px;
+}
+
+.classic-subtext{
+	font-size: 20px;
+	font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: -0.4px;
+}
+
+
+.classic-body-sec  button{
+	background: #FF6C2C;
+	    border: none;
+    color: white;
+    padding: 10px 33px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.premium-body-sec  button{
+	background: #5EB6E1;
+	    border: none;
+    color: white;
+    padding: 10px 33px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.standared-body-sec  button{
+	background: #945B9F;
+	    border: none;
+    color: white;
+    padding: 10px 33px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bottom-border{
+	    border-bottom: 2px solid #00A2FF;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.meet-text{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+
+.meet-subtext{
+	    margin: 0 auto;
+    width: 68%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trainer-field{
+	    color: #292F39;
+    font-size: 18px;
+}
+
+.meet-cards{
+	box-shadow: 0px 3px 6px #00000029;
+}
+
+.trainer-name{
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+
+.card-social img{
+	margin: 0px 8px;
+}
+
+.card-social {
+	margin-top: 5px;
+}
+
+.card-img {
+	width: 100%;
+	    height: 350px;
+    object-fit: fill;
+}
+
+
+.see-more-btn button{
+	background: #5EB6E1;
+	color: black;
+	    padding: 20px 60px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+ .news-cards{
+	padding: 20px;
+	background: #13191A;
+}
+
+.news-cards .card-body{
+	padding: 0px;
+}
+
+.news-head{
+	color:#5EB6E1;
+	line-height: 30px;
+}
+
+.news-subtext{
+	color: #BBBBBB;
+	font-size: 14px;
+}
+
+.time-text p ,.world-text p{
+	color: #BBBBBB;
+	line-height: 35px;
+
+}
+
+.card-world-clock{
+	width: 100%;
+}
+
+.world-text{
+	width: 55%;
+	display: flex;
+}
+
+.time-text{
+	width: 45%;
+	display: flex;
+}
+
+.world-text img, .time-text img{
+	width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.card-img-news {
+	    object-fit: fill;
+    height: 225px;
+}
+
+.recent-news-sec{
+	margin: 100px 0px;
+}
+
+
+.recent-text{
+	font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+.border-contact{
+	margin: 0px;
+	border: 1px solid #5EB6E1;
+}
+
+.contact-left{
+	background: #181A1F;
+	padding:80px 100px !important;
+}
+
+.recent-text{
+	color: white;
+}
+
+.contact-drop , .contact-form input{
+	height: 50px;
+	border: 1px solid #5EB6E1;
+	border-radius: 5px;
+	width: 100%;
+	color: #707070;
+	background: transparent;
+}
+
+
+.contact-form input{
+	height: 50px;
+	border: 1px solid #5EB6E1;
+	border-radius: 5px;
+	color: #707070;
+	width: 100%;
+	padding-left: 20px;
+	background: transparent;
+}
+
+.contact-form .message-box{
+	height: 150px !important;
+	color: #707070;
+	width: 100%;
+	padding-left: 20px;
+	border: 1px solid #5EB6E1;
+	border-radius: 5px;
+	color: #707070;
+	width: 100%;
+	padding-left: 20px;
+	background: transparent;
+}
+
+.contact-form button{
+	background: #5EB6E1;
+    color: black;
+    padding: 15px 42px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.number-detail{
+	color: white;
+	margin-top: 30px;
+}
+
+.contact-right  img{
+	height: 835px;
+}
+
+.main-banner{
+	background: url('../images/main.png');
+	height: 900px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.started-btn button{
+	    background: #5EB6E1;
+    color: black;
+    padding: 20px 75px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.solution{
+	    text-transform: capitalize;
+    font-size: 56px;
+    color: white;
+}
+
+.practice-text{
+	font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.width-60{
+	width: 60%;
+}
+
+.main-social{
+	    position: absolute;
+    bottom: 140px;
+}
+
+.main-social div img{
+	    padding: 20px 7px;
+    background: #F6F7FB;
+
+}
+
+.welcome-left small{
+	    color: #FF6C2C;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.welcome-text {
+	    font-size: 40px;
+    color: black;
+    text-align: left;
+} 
+
+.bottom-border-left{
+	    border-bottom: 2px solid #00A2FF;
+    width: 70px; 
+    margin-bottom: 30px;
+	
+}
+
+.from-text{
+	    color: #FF6C2C;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.from-subtext{
+	color: #9E9E9E;
+    font-size: 22px;
+margin-top: 20px;	
+}
+.welcome-content button{
+	    background: #5EB6E1;
+    color: black;
+    padding: 20px 60px;
+    margin-top: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+.img-1 {
+	    display: flex;
+    align-items: center;
+}
+
+
+
+.img-2 {
+	  flex-direction: column;
+}
+
+.img-1 img, .img-2 img{
+	    width: 100%;
+}
+
+.img-2 img{
+		padding: 10px 20px;
+}
+
+.fix-container{
+	width:1420px;
+	margin: 0 auto;
+}
+.padding-setting{
+	padding: 120px 80px;
+}
+
+.be-strong-sec{
+	margin: 110px 0px;
+}
+
+.our-class-sec{
+	background: #222224;
+}
+
+.our-class-sec .meet-text{
+	color: white;
+}
+
+.class-subtext{
+    color: #d6d6d6;
+    width: 46%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: capitalize;
+    margin: 0 auto;
+} 
+.cardio-fitness{
+	position: relative;
+}
+.our-class-sec {
+	padding: 50px 0px; 
+}
+
+.cardio-fitness-hover{
+	    width: 90%;
+    top: 0;
+    padding: 0px 100px;
+    display: flex;
+    text-align: center;
+    height: 90%;
+    background: rgba(0,162,255, 0.8);
+    justify-content: center;
+    align-items: center;
+    /* height: 95%; */
+    margin: 0 auto;
+    flex-direction: column;
+    position: absolute;
+        left: 30px;
+    top: 25px;
+}
+
+.cardio-fitness  img{
+	width: 100%;
+}
+
+.hover-border{
+	border: 1px solid white;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.advance-head-text{
+	    font-size: 35px;
+    color: white;
+}
+
+.advance-subtext{
+	color: white;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.cardio-fitness-hover button{
+	background: white;
+	border-radius: 30px;
+	color: black;
+	padding: 10px 15px;
+    font-size: 11px;
+    border: none;
+    margin-top: 22px;
+
+}
+
+.cardio-fitness-hover{
+	display: none;
+}
+
+.fitness-text{
+	    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+        padding: 10px;
+    font-size: 28px;
+    color: white;
+    background: rgba(19,25,26, 0.6);
+}
+
+.cardio-fitness:hover .cardio-fitness-hover{
+	display: flex;
+	transition: 0.5s !important;
+}
+
+.cardio-fitness:hover .fitness-text{
+	display: none;
+}
+
+
+.games-sec{
+	margin-bottom: 80px;
+}
+.cardio-img-1 {
+	justify-content: center;
+}
+
+@media only screen and (max-width: 992px){
+	.contact-left {
+	    padding: 63px 25px 40px 25px !important;
+	}
+	.extra1 a {
+    padding: 6px 5px;
+	}
+
+	.main-text-sec .solution{
+		font-size: 28px;
+	}
+	.practice-text{
+		font-size: 16px;
+	}
+	.classic-subtext{
+		font-size: 13px;
+	}
+	.classic-text{
+		font-size: 15px
+	}
+	.classic-body-sec {
+
+	}
+	.classic-body-sec button, .standared-body-sec button, .premium-body-sec button {
+		padding: 5px 20px;
+	    font-size: 12px;
+	}
+	.welcome-text{
+		font-size: 32px;
+	}
+	.padding-setting {
+    	padding: 55px 20px;
+	}
+	.from-text{
+		font-size: 18px;
+	}
+	.from-subtext{
+		    font-size: 15px;
+	}
+	.bottom-border-left{
+		margin-bottom: 10px;
+	}
+	.welcome-content button {
+	    padding: 10px 25px;
+	    margin-top: 18px;
+	    font-size: 14px;
+	    border-radius: 4px;
+	}
+	.our-class-sec {
+    	padding: 20px 0px;
+	}
+	.class-subtext {
+	    width: 90%;
+	    font-size: 16px;
+	}
+	.started-btn button {
+	    background: #5EB6E1;
+	    color: black;
+	    padding: 11px 20px;
+	    border: none;
+	    font-size: 14px;
+	    border-radius: 4px;
+	    margin-top: 16px;
+	}	
+	.cardio-fitness-hover{
+			width: 100%;
+	    font-size: 11px;
+	    left: 0px;
+	    top: 0px;
+	    height: 100%;
+	    padding: 10px;
+	    right: 0px;
+	    background: rgba(0,162,255, 0.6);
+	}
+	.fitness-text {
+		font-size: 18px;
+	}
+	.advance-head-text{
+		font-size: 18px;
+	}
+	.advance-subtext {
+		margin-top: 5px;
+	}
+	.cardio-fitness-hover button {
+	    background: white;
+	    border-radius: 30px;
+	    color: black;
+	    padding: 5px 12px;
+	    font-size: 10px;
+	    border: none;
+	    margin-top: 10px;
+	}
+	.meet-text {
+		font-size: 34px;
+	}
+	.games-sec {
+    	margin-bottom: 40px;
+	}
+	.meet-subtext {
+	    width: 100%;
+	    font-size: 16px;
+	    margin-bottom: 30px;
+	}
+	.meet-cards .card-body{
+		padding: 10px;
+	}
+	.trainer-name{
+		font-size: 20px;
+	}
+	.trainer-field{
+		font-size: 14px;
+	}
+	.see-more-btn button {
+	    background: #5EB6E1;
+	    color: black;
+	    padding: 10px 25px;
+	    border: none;
+	    font-size: 14px;
+	    border-radius: 10px;
+	}
+	.recent-news-sec{
+		margin: 40px 0px;
+	}
+
+	.recent-news-sec{
+		font-size: 12px;
+	}
+	.news-head{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.card-world-clock{
+		flex-direction: column;
+	}
+	.world-text, .time-text{
+		width: 100%;
+	}
+	.news-subtext {
+		font-size: 12px;
+	}
+	.contact-form button{
+		padding: 10px 0px;
+		border-radius: 4px;
+	}
+}
+
+
+@media only screen and (max-width: 1200px){
+	.main-banner{
+		height: 610px;
+	}	
+	.solution{
+		font-size: 46px;
+	}
+	.padding-setting {
+    	padding: 50px 80px;
+	}
+	.class-subtext {
+		width: 80%;
+	}
+	.cardio-fitness-hover{
+		left: 0px;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+	}
+	.advance-head-text {
+		font-size: 30px;
+	}
+	.contact-left {
+    	background: #181A1F;
+	}
+	.extra1 a {
+    	color: #979797;
+   	 	padding: 6px 13px;
+    	font-size: 11px;
+	}
+	.number-detail p{
+		font-size: 14px;
+	}
+}
+
+
+@media only screen and (max-width: 767px){
+	.main-text-sec .solution{
+		font-size: 20px;
+	}
+	.practice-text{
+		font-size: 13px;
+	}
+	.main-banner {
+		height: 420px;
+	}
+	.started-btn button {
+		padding: 8px 19px;
+		border-radius: 5px;
+		font-size: 12px;
+	}
+	.main-social div img {
+		width: 25px;
+	}
+	.main-social{
+		bottom: 45px;
+	}
+	.news-cards{
+		margin-bottom: 10px;
+	}
+
+	.meet-cards{
+		margin-bottom: 30px;
+	}
+	.see-more-btn {
+		margin-top: 30px;
+	}
+	.button-span {
+		padding: 5px 5px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.cardio-img-1{
+		flex-direction: column;
+	}
+	.cardio-fitness  {
+		margin-bottom: 15px;
+
+	}
+	.number-detail{
+		font-size: 14px;
+	}
+	.see-more-btn {
+    	margin-top: 10px;
+	}
+	.see-more-btn button{
+		border-radius: 4px;
+	}
+	.padding-setting{
+	padding: 	55px 10px;
+	}
+	.be-strong-sec{
+		margin: 0px;
+	}
+	.classic-body-sec, .standared-body-sec, .standared-body-sec{
+		margin-bottom: 15px 
+	}
+	.class-subtext {
+		width: 100%;
+	}
+	.class-img-sec{
+		margin-top: 20px;
+	}
+	.main-banner {
+		height: 300px;
+	}
+	.main-social {
+		right: 0px;
+	}
+	.main-text-sec .solution {
+		font-size: 14px;
+	}
+	.practice-text {
+    font-size: 10px;
+}
+
+}
